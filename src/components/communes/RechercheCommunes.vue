@@ -11,7 +11,7 @@
             <ion-button expand="full" type="submit" color="dark">RECHERCHER</ion-button>
         </ion-toolbar>
     </form>
-    <ion-button expand="full" color="light" @click="reloadPage" >reset</ion-button>
+    <ion-button expand="full" color="light" @click="reloadPage" >Réinitialiser</ion-button>
     <ResultatDeRecherche v-bind:result="result"/>
 </template>
 <script>
